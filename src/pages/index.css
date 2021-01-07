@@ -1,0 +1,230 @@
+.container {
+  width: 600px;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+.head {
+  min-height: 240px;
+  box-shadow: 0 2px 6px #555555;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.head > h2 {
+  background-color: white;
+  font-size: 2.4em;
+  margin-bottom: 30px;
+  margin-top: -5px;
+  color: rgb(76, 0, 255);
+  text-shadow: 0 2px 3px #555555;
+}
+
+.input-div {
+  background-color: white;
+}
+
+input {
+  display: block;
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 3px solid rgb(35, 211, 224);
+  font-size: 1.1rem;
+}
+
+input:hover {
+  border: 1px solid rgb(109, 47, 255);
+  border-radius: 4px;
+}
+
+.input-div > button {
+  margin-top: 6px;
+  background-color: lightseagreen;
+  float: right;
+  padding: 8px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.input-div > button:hover {
+  background-color: gold;
+  color: rgb(102, 102, 102);
+  transition: all .4s;
+}
+
+
+/* List Styling */
+.data-display {
+  margin-top: 20px;
+  box-shadow: 0 2px 6px #555555;
+  padding: 30px;
+  background-color: white;
+}
+
+.loader {
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+}
+
+.heading_list {
+  margin-bottom: -10px;
+  text-transform: capitalize;
+  color: rgb(61, 161, 255);
+}
+.heading_list > h3 {
+	font-size: 1.4rem
+}
+
+
+
+.button_list > button {
+  font-size: 1.1rem;
+  padding: 2px;
+  border: none;
+  margin: 0 10px;
+  background-color: white;
+  color: red;
+  box-shadow: 0 2px 4px #555555;
+  height: 30px;
+  width: 85px;
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+
+.button_list > button:hover {
+  opacity: 0.7;
+}
+
+
+
+/* * {
+    margin: 0;
+    font-family: "Maven Pro", sans-serif;
+    text-decoration: none;
+  }
+  
+  a {
+    color: black;
+    
+  }
+  .head {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  .head h2 {
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+  }
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    
+  }
+  .input-main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+    
+  }
+  .input-div input {
+    background-color: transparent;
+    border: 2px solid;
+    outline: none;
+    font-size: 16px;
+    margin-top: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 6px;
+    background-color:#f5f5f5;
+    font-size: 30px;
+  }
+  .input-div button {
+    height: 30px;
+    margin-top: 5px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    border: 2px solid;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: navy;
+    color: oldlace;
+    width: 120px;
+    border-radius: 15px;
+    align-self: center;
+    margin: 20px;
+  }
+  .data-div h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .input-div button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .data-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .data-div {
+    margin-top: 20px;
+    width: 400px;
+  }
+  .data-div .div {
+    height: auto;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+  }
+  .data-div p {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 17px;
+    text-transform: capitalize;
+  }
+  .data-div button {
+    height: 25px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .loader {
+    text-align: center;
+    margin-top: 10px;
+  }
+  @media (max-width: 440px) {
+    .input-div {
+      width: 300px;
+    }
+    .data-div {
+      width: 300px;
+    }
+  } */
